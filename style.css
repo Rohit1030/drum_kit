@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html {
+    width: 100%;
+    height: 100%;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Dancing Script', cursive;
+}
+button {
+    font-family: 'Dancing Script', cursive;
+}
+section {
+    background-color: #222833;
+    color: white;
+    border-radius: 20px;
+    padding: 2rem;
+}
+#drum {
+    max-width: 750px;
+    min-height: 450px;
+}
+section {
+    margin-left: 2.5rem;
+}
+ul {
+    list-style: none;
+}
+.key + .key {
+    margin-top: 0.8rem;
+}
+section h1 {
+    margin-bottom: 0.8rem;
+}
+.key > button {
+    border: 0;
+    border-radius: 7px;
+    padding: 0.7rem 1rem;
+    margin-right: 1rem;
+}
+main {
+    position: relative;
+}
+.sound_btn {
+    position: absolute;
+    border: 0;
+    padding: 0.6rem 0.9rem;
+    box-shadow: inset 0 0 5px;
+    border-radius: 5px;
+    transition: all 0.08s linear;
+}
+.shrink {
+    transform: scale(0.9);
+    box-shadow: inset 0 0 4px;
+}
+#e-btn {
+    top: -25px;
+    left: 105px;
+}
+#r-btn {
+    top: -15px;
+    left: 200px;
+}
+#v-btn {
+    bottom: 160px;
+    left: 325px;
+}
+#b-btn {
+    bottom: 160px;
+    left: 415px;
+}
+#i-btn {
+    right: 140px;
+    top: 70px;
+}
+#k-btn {
+    right: 60px;
+    top: 70px;
+}
+#f-btn {
+   top: 47.8%;
+   left: 240px;
+}
+#g-btn {
+    top: 20px;
+    left: 310px;
+ }
+ #h-btn {
+    right: 275px;
+    top: 20px;
+ }
+ #j-btn {
+    right: 195px;
+    top: 120px;
+ }
